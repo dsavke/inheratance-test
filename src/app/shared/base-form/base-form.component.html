@@ -1,0 +1,8 @@
+<h2>Base component</h2>
+<p>Can save form? {{canSave()}}</p>
+
+<ng-container
+    style="border: 1px solid red;"
+    *ngIf="content"
+    [ngTemplateOutlet]="content"
+></ng-container>
